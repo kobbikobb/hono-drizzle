@@ -18,7 +18,7 @@
     },
     "scripts": {
         "dev": "bun run index.ts",
-        "build:prod": "bun build index.ts --outdir dist --target=node --external pg",
+        "build:prod": "NODE_ENV=production bun build index.ts --outdir dist --target=node",
         "prod:migrate": "NODE_ENV=production bun run migrate.ts",
         "prod": "NODE_ENV=production bun run dist/index.js"
     }

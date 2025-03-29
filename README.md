@@ -7,6 +7,3 @@ An example of how you can use hono and drizzle
 
 ## Useful links
 - https://console.neon.tech/
-
-## TODO
-- bun:prod not working, No such file or directory postgres.data
