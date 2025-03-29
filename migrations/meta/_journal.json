@@ -29,6 +29,13 @@
       "when": 1743209335786,
       "tag": "0003_chemical_magus",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1743209967606,
+      "tag": "0004_wild_changeling",
+      "breakpoints": true
     }
   ]
 }
