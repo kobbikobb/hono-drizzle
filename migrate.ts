@@ -1,6 +1,8 @@
-import { getDb } from './db';
+import { migrate } from './db';
 
 export const runMigrations = async () => {
-    const db = await getDb();
-    db.migrate();
+    await migrate();
+    console.log('Migration completed!');
 }
+
+await runMigrations();

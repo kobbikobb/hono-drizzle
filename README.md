@@ -1,9 +1,11 @@
 # hono-drizzle
-An example of how you can use hono and drizzle
+An example of how you can use hono and drizzle.
 
-## Useful commands
+## Generate migration files after changes to schama 
 - bunx drizzle-kit generate
-- bunx drizzle-kit migrate
+
+## Migrate data for production (eftir generating template)
+- bun prod:migrate
 
 ## Useful links
 - https://console.neon.tech/

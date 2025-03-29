@@ -15,6 +15,13 @@
       "when": 1742379298441,
       "tag": "0001_old_morph",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1743208370633,
+      "tag": "0002_spicy_lilandra",
+      "breakpoints": true
     }
   ]
 }
